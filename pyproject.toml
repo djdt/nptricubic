@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nptricubic"
+version = "1.0.0"
+dependencies = ["numpy"]
+description = "Vectorised tricubic interpolation."
+authors = [{name = "djdt"}]
+license = {file = "LICENSE"}
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/djdt/nptricubic"
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "scipy",
+]
