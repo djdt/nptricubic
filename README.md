@@ -1,0 +1,2 @@
+# nptricubic
+Vectorised tricubic interpolation.
